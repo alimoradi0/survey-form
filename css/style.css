@@ -1,7 +1,7 @@
 /*این خصوصیت های بادی هستش که یک بک گراند داره یه دایرکشن و فونت*/
 
 body{
-    background-color: #23c9c0;
+    /* background-color: #23c9c0; */
     direction: rtl;
     font-family: B Nazanin,tahoma;
 }
@@ -85,7 +85,7 @@ div.container{
    
     width:1000px;
     align-items: center;
- background-color:#cccc00;
+ background-color:#186b3b;
  color:#fff;
  display: -webkit-flex;
  -webkit-justify-content: center;
@@ -96,29 +96,20 @@ div.container{
 .section3{
     display: inline;
 }
-/*خصوصیت ردیو باتن های سوالاته که در حالت عادی نشون میده و براشون سایز تعریف کردم*/
-input[type=radio]{
-    width: 40px;
-    height: 40px;
-}
-/*این حصوصیت همون ردیو باتن هاست وقتی که روشون کلیک بشه و به اصطلاح چک بشن و سایزشون بیشتر شه*/
-input[type=radio]:checked{
-    width: 46px;
-    height: 46px;
-}
+
 /*کلاس برای سوالات هستش*/
 .question{
-    color: #cc0066;
+    color: #000000;
     padding-left: 15px;
  text-align: center;
     font-size: 35px;
 }
 /*دکمه های موافق و مخالف رنگاشون تعیین شدن اینجا*/
 .agree{
-    color: #339933;
+    color: #22c222;
 }
  .disagree{
-    color:#990000;
+    color:#d30505;
 }
 
 /*و اینم کلاس برای دکمه اخر صفحه که نوشته صفحه بعدی*/
@@ -130,8 +121,52 @@ input[type=button]{
     text-align: center;
 }
 
+.small{
+    width: 20px;
+    height: 20px;
+}
+#small:hover{
+    width: 25px;
+    height: 25px;
+}
 
+.medium{
+    width: 30px;
+    height: 30px;
+}
+#medium:hover{
+    width: 35px;
+    height: 35px;
+}
 
+.large{
+    width: 40px;
+    height: 40px;
+}
+#large:hover{
+    width: 45px;
+    height: 45px;
+}
 
+.larger{
+    width: 50px;
+    height: 50px;
+}
+#larger:hover{
+    width: 55px;
+    height: 55px;
+}
 
-
+/* دکمه پایین صفحه */
+.nextpage{
+    background-color: white;
+    border:white 5px solid;
+    font-size: 20px;
+}
+#nextpage:hover{
+    border: dodgerblue 2px solid;
+    border-radius: 20%;
+    font-size: 22px;
+    color: dodgerblue;
+    
+}
